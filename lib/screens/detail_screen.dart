@@ -70,7 +70,7 @@ class DetailScreen extends StatelessWidget {
                   SizedBox(height: 16),
                   Row(
                     children: [
-                      Icon(Icons.place, color: Colors.red),
+                      Icon(Icons.place, color: Colors.black),
                       SizedBox(width: 8),
                       SizedBox(
                         width: 70,
