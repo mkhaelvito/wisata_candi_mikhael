@@ -40,12 +40,17 @@ class MyApp extends StatelessWidget {
           ),
           useMaterial3: true,
         ),
-        initialRoute: '/',
+        // initialRoute: '/',
+        // routes: {
+        //   '/homescreen': (context) => const MainScreen(),
+        //   '/signin': (context) => const SignInScreen(),
+        //   '/signup': (context) => const SignUpScreen(),
+        // }
+        home: const MainScreen(),
         routes: {
-          '/homescreen': (context) => const MainScreen(),
           '/signin': (context) => const SignInScreen(),
           '/signup': (context) => const SignUpScreen(),
-        }
+        },
     );
   }
 }
