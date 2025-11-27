@@ -26,7 +26,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // TODO: 2. Buat properti widget yang ditampilkan
+      // TODO: 2. Buat properti body berupa widget yang ditampilkan
       body: _children[_currentIndex],
       // TODO: 3. Buat properti bottomNavigationBar dengan nilai Theme
       bottomNavigationBar: Theme(

@@ -23,7 +23,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     // setState(() {
     //   isSignedIn = !isSignedIn;
     //   userName = 'faiz';
-    //   fullName = 'Vito';
+    //   fullName = 'Faiz Ganteng';
     //   favoriteCandiCount = 3;
     // });
   }
